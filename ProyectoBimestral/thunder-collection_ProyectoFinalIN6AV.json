@@ -1,0 +1,329 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ProyectoFinalIN6AV",
+    "dateExported": "2024-03-08T16:36:05.081Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "ea8b37aa-5eb1-4092-a8f2-e1d92615407b",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-03-05T05:28:03.064Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "ce191900-48e5-4160-bc9c-778ea283be4f",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-03-05T05:28:03.065Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "dea478af-84a2-4e4e-aac9-c2e52e471ec1",
+            "name": "Product",
+            "containerId": "",
+            "created": "2024-03-08T12:46:52.737Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "a7f76801-eeb7-4607-b1ed-59a8b32ddac6",
+            "colId": "6b1f3e8d-2716-4107-bbc0-c9bd42f8f5b3",
+            "containerId": "ea8b37aa-5eb1-4092-a8f2-e1d92615407b",
+            "name": "register",
+            "url": "localhost:3200/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-05T05:28:03.065Z",
+            "modified": "2024-03-08T06:05:26.577Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Angel David"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Bachac Peralta"
+                    },
+                    {
+                        "name": "email",
+                        "value": "abachac-2022051@kinal.edu.gt"
+                    },
+                    {
+                        "name": "username",
+                        "value": "abachacs"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "57685387"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Villa Nueva"
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "24f65c58-4a03-444a-b1cc-402bed23047a",
+            "colId": "6b1f3e8d-2716-4107-bbc0-c9bd42f8f5b3",
+            "containerId": "ea8b37aa-5eb1-4092-a8f2-e1d92615407b",
+            "name": "update",
+            "url": "localhost:3200/update/65ea92f5aca34d1513a244b4",
+            "method": "PUT",
+            "sortNum": 25000,
+            "created": "2024-03-05T05:28:03.067Z",
+            "modified": "2024-03-08T06:05:03.925Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhOTJmNWFjYTM0ZDE1MTNhMjQ0YjQiLCJ1c2VybmFtZSI6ImZzaW5hIiwibmFtZSI6IkZyYW5rIiwicm9sIjoiQURNSU4iLCJpYXQiOjE3MDk4Nzc3MjMsImV4cCI6MTcwOTg4ODUyM30.Gcf-med46YHiHvp822KoBz9m2GtzR5GhqLg48y-8PME"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Angel David"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Bachac Peralta"
+                    },
+                    {
+                        "name": "email",
+                        "value": "abachac-2022051@kinal.edu.gt"
+                    },
+                    {
+                        "name": "username",
+                        "value": "abachac-2022051"
+                    },
+                    {
+                        "name": "password",
+                        "value": "87654321"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "57685387"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Villa Nueva"
+                    },
+                    {
+                        "name": "oldpaswword",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "bcb222c4-1b6a-4362-9ae5-ca73fbc02a22",
+            "colId": "6b1f3e8d-2716-4107-bbc0-c9bd42f8f5b3",
+            "containerId": "ea8b37aa-5eb1-4092-a8f2-e1d92615407b",
+            "name": "login",
+            "url": "localhost:3200/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-05T05:28:03.066Z",
+            "modified": "2024-03-08T06:02:03.411Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "Fsina"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "f6b72a3e-4d07-4e74-a3a4-11e8ca4c1319",
+            "colId": "6b1f3e8d-2716-4107-bbc0-c9bd42f8f5b3",
+            "containerId": "ea8b37aa-5eb1-4092-a8f2-e1d92615407b",
+            "name": "delete",
+            "url": "localhost:3200/delete/65ea92f5aca34d1513a244b4",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-05T05:28:03.068Z",
+            "modified": "2024-03-08T06:16:51.487Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhOTJmNWFjYTM0ZDE1MTNhMjQ0YjQiLCJ1c2VybmFtZSI6ImZzaW5hIiwibmFtZSI6IkZyYW5rIiwicm9sIjoiQURNSU4iLCJpYXQiOjE3MDk4Nzc3MjMsImV4cCI6MTcwOTg4ODUyM30.Gcf-med46YHiHvp822KoBz9m2GtzR5GhqLg48y-8PME"
+                }
+            ],
+            "params": [],
+            "reqType": "del",
+            "tests": []
+        },
+        {
+            "_id": "54f6d6cb-c41f-4291-abbc-857ae50bf521",
+            "colId": "6b1f3e8d-2716-4107-bbc0-c9bd42f8f5b3",
+            "containerId": "ce191900-48e5-4160-bc9c-778ea283be4f",
+            "name": "listar Categoria",
+            "url": "localhost:3200/category/listarCategoria",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-08T06:58:54.186Z",
+            "modified": "2024-03-08T07:34:37.281Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYmNhNTA0NjExNTBkZDQ2ZWMzYzkiLCJ1c2VybmFtZSI6ImZzaW5hIiwibmFtZSI6IkZyYW5rIiwicm9sIjoiQURNSU4iLCJpYXQiOjE3MDk4ODI4NzQsImV4cCI6MTcwOTg5MzY3NH0.A6dSG6gmkyUxdyJHcmNV06K43Ji0t8qrZ746UUtXxo4"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "c4e83a68-d1a2-48c8-bae0-dfc8927d6582",
+            "colId": "6b1f3e8d-2716-4107-bbc0-c9bd42f8f5b3",
+            "containerId": "ce191900-48e5-4160-bc9c-778ea283be4f",
+            "name": "Nueva categoria",
+            "url": "localhost:3200/category/agregarCategorias",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-08T06:59:13.927Z",
+            "modified": "2024-03-08T07:28:07.052Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYmNhNTA0NjExNTBkZDQ2ZWMzYzkiLCJ1c2VybmFtZSI6ImZzaW5hIiwibmFtZSI6IkZyYW5rIiwicm9sIjoiQURNSU4iLCJpYXQiOjE3MDk4ODI4NzQsImV4cCI6MTcwOTg5MzY3NH0.A6dSG6gmkyUxdyJHcmNV06K43Ji0t8qrZ746UUtXxo4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Electronico"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Aquí hay productos electronicos XD"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "34d6c676-9682-460f-85c3-f2575747f657",
+            "colId": "6b1f3e8d-2716-4107-bbc0-c9bd42f8f5b3",
+            "containerId": "ce191900-48e5-4160-bc9c-778ea283be4f",
+            "name": "actualizaar Categoria",
+            "url": "localhost:3200/category/actualizarCategoria/65eabe0737d427cefc64152f",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-03-08T12:40:41.603Z",
+            "modified": "2024-03-08T12:44:47.309Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYmNhNTA0NjExNTBkZDQ2ZWMzYzkiLCJ1c2VybmFtZSI6ImZzaW5hIiwibmFtZSI6IkZyYW5rIiwicm9sIjoiQURNSU4iLCJpYXQiOjE3MDk5MDE3ODksImV4cCI6MTcwOTkxMjU4OX0.0G_jqGZi86pm6apaHKqtVqDpf9DZqgqT0tTN-SRgL7w"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Comida"
+                    },
+                    {
+                        "name": "description",
+                        "value": "aqui hay productos de comida"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7545c9e1-739a-4b95-963d-82d21475697e",
+            "colId": "6b1f3e8d-2716-4107-bbc0-c9bd42f8f5b3",
+            "containerId": "dea478af-84a2-4e4e-aac9-c2e52e471ec1",
+            "name": "agregar",
+            "url": "localhost:3200/product/agregar",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-03-08T13:10:03.917Z",
+            "modified": "2024-03-08T16:28:53.672Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYmNhNTA0NjExNTBkZDQ2ZWMzYzkiLCJ1c2VybmFtZSI6ImZzaW5hIiwibmFtZSI6IkZyYW5rIiwicm9sIjoiQURNSU4iLCJpYXQiOjE3MDk5MTQ4MDUsImV4cCI6MTcwOTkyNTYwNX0.r6WFComGfSEqHsvDufMlfM1QPlAm-kLLEw-c8ApZ8qY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "Sal"
+                    },
+                    {
+                        "name": "descripcion",
+                        "value": "es sal"
+                    },
+                    {
+                        "name": "categoria",
+                        "value": "65eabe0737d427cefc64152f"
+                    },
+                    {
+                        "name": "precio",
+                        "value": "10"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "300"
+                    },
+                    {
+                        "name": "contador",
+                        "value": "0",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "estado",
+                        "value": "true",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        }
+    ]
+}
